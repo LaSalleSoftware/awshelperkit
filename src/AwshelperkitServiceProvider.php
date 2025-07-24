@@ -22,7 +22,7 @@ namespace Lasallesoftware\Awshelperkit;
 // Laravel Framework
 use Illuminate\Support\ServiceProvider;
 
-class LibrarybackendServiceProvider extends ServiceProvider
+class AwshelperkitServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
