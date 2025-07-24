@@ -1,0 +1,32 @@
+{
+  "name": "lasallesoftware/awshelperkit",
+  "description": "AWS Helper Kit package.",
+  "homepage": "https://lasallesoftware.ca",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bob Bloom",
+      "email": "bob.bloom@lasallesoftware.ca",
+      "homepage": "https://LasalleSoftware.ca",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.4",
+    "aws/aws-sdk-php": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lasallesoftware\\Awshelperkit\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Lasallesoftware\\Awshelperkit\\AwshelperkitServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
