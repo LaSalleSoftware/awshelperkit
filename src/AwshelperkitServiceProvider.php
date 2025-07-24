@@ -20,6 +20,7 @@
 namespace Lasallesoftware\Awshelperkit;
 
 // Laravel Framework
+use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
 
 class AwshelperkitServiceProvider extends ServiceProvider
